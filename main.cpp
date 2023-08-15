@@ -220,6 +220,36 @@ int main()
                             cout << "3 x " << i << " = " << 3 * i << "\n";
                         }
                         break;
+                    case 4:
+                        for (int i = 1; i <= 10; ++i) {
+                            cout << "4 x " << i << " = " << 4 * i << "\n";
+                        }
+                        break;
+                    case 5:
+                        for (int i = 1; i <= 10; ++i) {
+                            cout << "5 x " << i << " = " << 5 * i << "\n";
+                        }
+                        break;
+                    case 6:
+                        for (int i = 1; i <= 10; ++i) {
+                            cout << "6 x " << i << " = " << 6 * i << "\n";
+                        }
+                        break;
+                    case 7:
+                        for (int i = 1; i <= 10; ++i) {
+                            cout << "7 x " << i << " = " << 7 * i << "\n";
+                        }
+                        break;
+                    case 8:
+                        for (int i = 1; i <= 10; ++i) {
+                            cout << "8 x " << i << " = " << 8 * i << "\n";
+                        }
+                        break;
+                    case 9:
+                        for (int i = 1; i <= 10; ++i) {
+                            cout << "9 x " << i << " = " << 9 * i << "\n";
+                        }
+                        break;
 
                     default:
                         cout << "Opcao invalida";
