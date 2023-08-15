@@ -179,11 +179,11 @@ int main()
             double sindicato = 0.05 * salarioBruto;
             double salarioLiquido = salarioBruto - (impostoRenda + inss + sindicato);
 
-            cout << "Salário Bruto: R$ " << salarioBruto << "\n";
+            cout << "Salario Bruto: R$ " << salarioBruto << "\n";
             cout << "Imposto de Renda (11%): R$ " << impostoRenda << "\n";
             cout << "INSS (8%): R$ " << inss << "\n";
             cout << "Sindicato (5%): R$ " << sindicato << "\n";
-            cout << "Salário Líquido: R$ " << salarioLiquido << "\n";
+            cout << "Salario Liquido: R$ " << salarioLiquido << "\n";
             break;
 
         }else if(opc == 14) {
@@ -200,7 +200,6 @@ int main()
                 cout << "7 - Tabuada do 7\n";
                 cout << "8 - Tabuada do 8\n";
                 cout << "9 - Tabuada do 9\n";
-                cout << "10 - Sair\n";
                 cin >> tabuada;
 
                 switch (tabuada) {
@@ -263,11 +262,11 @@ int main()
             const double TAMANHO = 18.0;
             const double PRECO = 80.0;
 
-            double areaintura;
+            double areaPintura;
             cout << "Digite o tamanho da area a ser pintada em metros quadrados: ";
-            cin >> areaintura;
+            cin >> areaPintura;
 
-            double litros = round(areaintura / COBERTURA);
+            double litros = round(areaPintura / COBERTURA);
             int latas = static_cast<int>(round(litros / TAMANHO));
             double precoTotal = latas * PRECO;
 
